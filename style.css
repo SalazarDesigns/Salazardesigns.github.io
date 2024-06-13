@@ -14,11 +14,6 @@ html {
     scroll-behavior: smooth;
   }
 
-/* CV Download */
-/* .tooltipped{
-    margin: 0;
-} */
-
 
 h1,h2,h3,h4,h5,h6 .brand-logo{
     font-family: 'Trebuchet MS';
@@ -33,10 +28,7 @@ h1,h2,h3,h4,h5,h6 .brand-logo{
     
 }
 
-.hero{
-    margin-top: 5rem;
-    height: 100vh;
-}
+
 
 .hero p{
     margin-top: 1rem;
@@ -75,16 +67,14 @@ nav .brand-logo{
     margin-top: 5rem;
 }
 
-.hero .find_out_more{
-    margin-top: 1rem;
-}
+
 
 
 .carousel{
     z-index: 1;
     height: 40rem;
     margin-top: -15rem;
-    
+
 }
 
 .waves{
@@ -96,10 +86,6 @@ nav .brand-logo{
 }
 
 
-.section .about h2{
-    
-    margin: 5rem;
-}
 
 .adobe_logo{
     width: 50px;
@@ -108,12 +94,7 @@ nav .brand-logo{
 
 
 
-/* projects */
-.section .projects{
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    height: 100vh;
-}
+
 
 .row > .col{
     margin-bottom: 1.5rem ;
@@ -142,10 +123,7 @@ nav .brand-logo{
 
 
 
-.contact-us{
-    margin-top: 8rem;
-    height: 100vh
-}
+
 
 .form .input-field input[type="text"]:focus + label,
 .form .input-field input[type="email"]:focus + label,
@@ -163,8 +141,21 @@ nav .brand-logo{
 
 }
 
-.section{
-    height: 100vh;
+
+@media screen and (min-width: 1025px){
+    .section{
+        height: 100vh;
+    }
 }
 
+
+
+.hero .find_out_more{
+    margin-top: 1rem;
+}
+
+.hero{
+    margin-top: 5rem;
+    
+}
 
